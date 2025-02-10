@@ -61,7 +61,6 @@ begin
             assert w_out = "10" report "Error on input o6" severity failure;
         w_in <= o"7"; wait for 10 ns;
             assert w_out = "11" report "Error on input o7" severity failure;                                          
-                                
 		wait; -- wait forever
 		
 	end process;	
